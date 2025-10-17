@@ -10,7 +10,7 @@ function curl($url){
 }
 
 // Ambil data JSON dari getWisata.php
-$send = curl("http://localhost/json/getWisata.php");
+$send = curl("http://localhost/rekayasaweb/json/getWisata.php");
 
 // Ubah JSON menjadi array PHP
 $data = json_decode($send, TRUE);
